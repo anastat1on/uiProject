@@ -46,7 +46,7 @@ padding-left: 240px;;
 }
 .request_demo_btn{
     position: absolute;
-    margin-left: 60%;
+    margin-left: 52%;
     top: 64px;
     color: #212353;
     border: 2px solid #FFFFFF;
@@ -100,8 +100,6 @@ padding-left: 240px;;
     float: right;
     right: 19%;
     top: 100px;
-    /* margin: 0 0 0 15px; */
-
 }
 
 .data_storage_warehouse{
@@ -135,6 +133,10 @@ padding-left: 240px;;
     background: rgba(240, 99, 184, 0.15);
     border-radius: 50px;
     align-items: center;
+    width: 63%;
+    margin-top: 10%;
+    padding-bottom: 20px;
+    padding-top: 40px;
 }
 .pic_2{
     width: 477px;
@@ -150,5 +152,15 @@ padding-left: 240px;;
     line-height: 130%;
     display: flex;
     align-items: center;
-    color: #212353;   
+    color: #212353;
+    margin-top: 8%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+}
+.text_position{
+    position: relative;
+    margin-right: 50px;
+    left:5%;
+
+
 }
