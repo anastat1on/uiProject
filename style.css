@@ -129,13 +129,14 @@ padding-left: 240px;;
     text-align: center;
 }
 .pink_board{
-    position: absolute;
+    position: relative;
+    display: block;
     background: rgba(240, 99, 184, 0.15);
     border-radius: 50px;
     align-items: center;
-    width: 63%;
+    width: 73%;
     margin-top: 10%;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
     padding-top: 40px;
 }
 .pic_2{
@@ -161,6 +162,16 @@ padding-left: 240px;;
     position: relative;
     margin-right: 50px;
     left:5%;
-
-
+}
+.text_features{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-right: 20%;
+    padding-left: 5%;
+}
+.feature_items{
+    position: absolute;
+    display: grid;
+    
 }
