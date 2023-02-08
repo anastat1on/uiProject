@@ -129,13 +129,14 @@ padding-left: 240px;;
     text-align: center;
 }
 .pink_board{
-    position: absolute;
+    position: relative;
+    display: block;
     background: rgba(240, 99, 184, 0.15);
     border-radius: 50px;
     align-items: center;
-    width: 63%;
+    width: 73%;
     margin-top: 10%;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
     padding-top: 40px;
 }
 .pic_2{
@@ -161,6 +162,101 @@ padding-left: 240px;;
     position: relative;
     margin-right: 50px;
     left:5%;
+}
+.text_features{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-right: 20%;
+    padding-left: 5%;
+}
+.feature_items{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    margin-bottom: 10%;
+}
+.pic_feature{
+    float: left;
+    position: absolute;
+    margin-top: 70px;
+}
 
+.pic_backgroud{
+    position: relative;
+    text-align: center;
+    margin-left: 100px;
+    margin-bottom: 6%;
+}
 
+#simple_text{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4B5D68;
+    position: absolute;
+    transform: translate(-120%, 30%);
+}
+#title_feature{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #212353;
+}
+.learn_more_arrow{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #212353;
+    margin-top: 20px;
+}
+.arrow-1{
+    position: relative;
+    display: inline-block;
+    border: solid  #9C69E2;
+    border-width: 0 2px 2px 0;
+    padding: 5px;
+    transform: rotate(-45deg);
+    right: 7px;
+}
+.arrow-line-1{
+    position:relative;
+    display: inline-block;
+    border: solid  #9C69E2;
+    border-width: 0 0px 2px 0;
+    padding: 10px;
+    margin: 0px 0px 5px 10px;
+    bottom: 7.5px;
+    left: 5.5px;
+}
+.vector_pic_1{
+    position: absolute;
+    top: 15px;
+    left: 21%;
+}
+.vector_pic_2{
+    position: absolute;
+    top: 24%;
+    right: 17%;
+}
+.vector_pic_3{
+    position: absolute;
+    margin-top: 30px;
+    left: 28%;
+}
+.vector_pic_4{
+    position: absolute;
+    margin-top: 25px;
+    right: 21%;
 }
